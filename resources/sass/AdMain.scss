@@ -1,0 +1,130 @@
+@import "mixins/mixins";
+
+.ad-main-form {
+    min-height: 200px;
+}
+
+.ad-main-form,
+.style-box,
+.landing-page-box {
+    @include b(input-group) {
+        @include e(prepend) {
+            padding: 0px 8px;
+        }
+
+        // @include e(append) {
+        //     @include b(button) {
+        //         span {
+        //             vertical-align: super;
+        //         }
+        //     }
+        // }
+    }
+}
+
+.style-box,
+.landing-page-box {
+    >div {
+        margin: 4px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    }
+
+    @include b(radio-group) {
+        display: block;
+        font-size: 14px;
+    }
+
+    @include b(card) {
+        margin: 5px;
+        padding: 0px;
+
+        @include e(header) {
+            color: #fff;
+            padding: 2px;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 0 5px;
+
+            button {
+                padding: 3px 0px;
+                float: right;
+
+                .el-icon-delete,
+                .el-icon-download {
+                    font-size: 17px;
+                    margin-right: 5px;
+                    color: #fff;
+                }
+            }
+        }
+
+        @include e(body) {
+            padding: 0px 0px;
+
+            .image {
+                width: 100%;
+                height: 150px;
+                display: block;
+            }
+
+            .bottom {
+                padding: 2px 4px;
+                height: 30px;
+
+                >span {
+                    display: inline-block;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+                .bottom-text {
+                    &-lt {
+                        width: 35%;
+                        float: left;
+                        text-align: left;
+                    }
+
+                    &-rt {
+                        width: 65%;
+                        float: right;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+
+        .clearfix:before,
+        .clearfix:after {
+            display: table;
+            content: "";
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+    }
+
+    @include b(form-item) {
+        @include e(label) {
+            font-family: "Microsoft YaHei";
+        }
+
+        @include e(content) {
+            font-family: "Microsoft YaHei";
+        }
+    }
+
+    .landing-page-input {
+        margin-top: 15px;
+    }
+}
+
+.style-select-material {
+    &-list {
+        overflow-y: auto;
+        max-height: 400px;
+        &-group {
+            display: unset;
+        }
+    }
+}

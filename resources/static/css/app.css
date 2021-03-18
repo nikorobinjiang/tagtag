@@ -1,0 +1,71 @@
+/* Write your styles */
+/*左侧菜单栏*/
+.left-panel{
+    width:200px;
+    float: left;
+    margin-left:35px;
+}
+.left-panel .am-accordion-default{
+    margin-top:0;
+}
+.left-panel a{
+    color: #666;
+}
+.left-panel .activeLink{
+
+    color: #0e90d2;
+}
+.left-panel .am-accordion-default .am-active .am-accordion-title{
+    color: #666;
+}
+/*end左侧菜单栏*/
+
+/*中部内容区*/
+.page-location ,.search-box ,.operate-box,.main-content-box,.paging-box{
+    margin:8px;
+}
+.search-box {
+    margin-bottom:18px;
+    margin-top:18px;
+}
+.page-location,.search-box{
+    font-size:13px;
+}
+.cus-input-sm{
+    padding:2px !important;
+}
+
+.m-video-item{
+    float: left;
+    width:260px;
+    height:210px;
+    border:1px solid #aaa;
+    margin:8px;
+}
+.main-content-box table th{
+    text-align: center;
+}
+.cus-form-box{
+    padding:30px 30px 20px 20px;
+}
+.cus-form-btn{
+    margin-top:30px;
+}
+.cus-form-btn button{
+    margin-right:15px;
+}
+.require-mark{
+    color: #aa3333;
+    font-size: 20px;
+
+}
+/*end中部内容区*/
+
+.right{
+    float:right;
+}
+.left{
+    float: left;}
+.main{
+    width:calc( 100% - 240px);
+}

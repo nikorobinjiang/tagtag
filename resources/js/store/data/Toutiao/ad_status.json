@@ -1,0 +1,49 @@
+[{
+    "id": "AD_STATUS_NO_DELETE",
+    "label": "不限"
+}, {
+    "id": "AD_STATUS_DELIVERY_OK",
+    "label": "投放中"
+}, {
+    "id": "AD_STATUS_CREATE",
+    "label": "计划新建"
+}, {
+    "id": "AD_STATUS_OFFLINE_AUDIT",
+    "label": "审核不通过"
+}, {
+    "id": "AD_STATUS_AUDIT",
+    "label": "新建审核中"
+}, {
+    "id": "AD_STATUS_REAUDIT",
+    "label": "修改审核中"
+}, {
+    "id": "AD_STATUS_DISABLE",
+    "label": "已暂停"
+}, {
+    "id": "AD_STATUS_CAMPAIGN_DISABLE",
+    "label": "已被广告组暂停"
+}, {
+    "id": "AD_STATUS_TIME_NO_REACH",
+    "label": "未达到投放时间"
+}, {
+    "id": "AD_STATUS_OFFLINE_BUDGET",
+    "label": "广告计划超出预算"
+}, {
+    "id": "AD_STATUS_CAMPAIGN_OFFLINE_BUDGET",
+    "label": "广告组超出预算"
+}, {
+    "id": "AD_STATUS_OFFLINE_BALANCE",
+    "label": "账户余额不足"
+}, {
+    "id": "AD_STATUS_NO_SCHEDULE",
+    "label": "不在投放时段"
+}, {
+    "id": "AD_STATUS_TIME_DONE",
+    "label": "已完成"
+}, {
+    "id": "AD_STATUS_DELETE",
+    "label": "已删除"
+}, {
+    "id": "AD_STATUS_NONE",
+    "label": "不限(包含已删除)"
+}]

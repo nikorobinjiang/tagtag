@@ -1,0 +1,28 @@
+@import "~element-ui/packages/theme-chalk/src/common/var";
+@import "mixins/mixins";
+
+.row-breadcrumb,
+.row-search,
+.row-actions,
+.row-tools,
+.row-table,
+.row-table-tools {
+    padding: 5px 0px;
+
+    .tool-item {
+        padding-right: 5px;
+    }
+}
+
+.row-actions,
+.row-tools {
+    padding: 5px 5px;
+}
+
+.row-table {
+    box-shadow: $--box-shadow-light;
+}
+
+.row-form {
+    padding: 20px 0px 5px 0px;
+}

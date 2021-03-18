@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=./webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=./webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=./webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=./webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "babel-helper-vue-jsx-merge-props": "^2.0.3",
+        "babel-plugin-syntax-jsx": "^6.18.0",
+        "babel-plugin-transform-vue-jsx": "^3.7.0",
+        "babel-preset-env": "^1.7.0",
+        "bootstrap-sass": "^3.3.7",
+        "clipboard": "^2.0.1",
+        "cross-env": "^5.2.0",
+        "element-ui": "2.14.1",
+        "handlebars": "^4.0.12",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.1.0",
+        "lodash": "^4.17.11",
+        "svg-sprite-loader": "^4.1.2",
+        "vue": "2.6.12",
+        "vue-router": "^3.0.1",
+        "vuex": "^3.0.1",
+        "webpack-bundle-analyzer": "^2.13.1"
+    },
+    "dependencies": {
+        "cropperjs": "^1.4.2",
+        "echarts": "^4.1.0",
+        "image-compressor.js": "^1.1.4",
+        "insert-text-at-cursor": "^0.1.1",
+        "js-cookie": "^2.2.0",
+        "less-loader": "^5.0.0",
+        "moment": "^2.22.2",
+        "screenfull": "^3.3.3",
+        "store": "^2.0.12",
+        "vue-count-to": "^1.0.13",
+        "vue-upload-component": "^2.8.14",
+        "vuex-persistedstate": "^2.5.4",
+        "vux": "^2.9.4",
+        "vux-loader": "^1.2.9"
+    }
+}

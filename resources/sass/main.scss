@@ -1,0 +1,17 @@
+// Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import "element.scss";
+// @import 'element-ui/lib/theme-chalk/index.css';
+
+body {
+    font-family: '微软雅黑';
+}
+
+// Variables
+@import "variables";
+@import "helpers";
+// Bootstrap
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// AdMain
+@import "AdMain.scss";
+@import "scat.scss";

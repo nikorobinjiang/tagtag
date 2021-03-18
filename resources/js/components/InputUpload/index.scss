@@ -1,0 +1,22 @@
+.scat-upload {
+    .file-uploads {
+        overflow: unset;
+    }
+
+    .input-upload-main {
+        margin-bottom: unset;
+    }
+
+    .preview {
+
+        img,
+        video {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .batch-tools {
+        display: inline;
+    }
+}

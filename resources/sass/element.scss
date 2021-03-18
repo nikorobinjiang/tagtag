@@ -1,0 +1,36 @@
+// Global Color
+$--border-color-extra-light: #e4eaf3;
+// Import Official Theme
+@import '~element-ui/packages/theme-chalk/src/index';
+// Import Local Mixins
+@import "mixins/mixins";
+
+// Local Theme Rewrite
+@include b(message) {
+    top: 50px;
+}
+
+@include b(select-dropdown) {
+    @include e(item) {
+        max-width: 360px;
+        padding: 0 0 0 15px;
+    }
+}
+
+@include b(dialog) {
+    @include e(body) {
+        padding: 15px 20px;
+    }
+}
+
+@include b(checkbox-group) {
+    @include b(checkbox-button) {
+        &.is-disabled {
+            &.is-checked {
+                @include e(inner) {
+                    background-color: $--border-color-extra-light;
+                }
+            }
+        }
+    }
+}

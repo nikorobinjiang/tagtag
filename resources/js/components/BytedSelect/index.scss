@@ -1,0 +1,46 @@
+.byted-select-moduler {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #dee4f5;
+    border-radius: 2px;
+
+    &-header {
+        border-bottom: 1px solid #dee4f5;
+        background-color: #fafbfe;
+        color: #333;
+        font-size: 14px;
+        padding: 0 12px;
+
+        &-title {
+            height: 34px;
+            line-height: 34px;
+            vertical-align: middle;
+        }
+
+        &-checkall {
+            padding-left: 0px;
+        }
+    }
+
+    &-container {
+        height: 246px;
+        overflow-y: auto;
+    }
+
+    &-item {
+        padding: 0 0 0 12px;
+        position: relative;
+    }
+
+    &-info {
+        font-size: 14px;
+        display: inline-block;
+        // width: 80%;
+
+        &-has-child {
+            &:hover {
+                color: #409EFF;
+            }
+        }
+    }
+}
